@@ -19,7 +19,7 @@ jobs:
         run: mvn -B package --file pom.xml
   test:
     runs-on: ubuntu-latest
-    needs: build  # This makes sure the test job runs after the build job halla
+    needs: build  # This makes sure the test job runs after the build job halla shshs
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 11
